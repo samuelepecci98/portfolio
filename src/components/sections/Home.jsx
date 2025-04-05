@@ -35,11 +35,6 @@ export const Home = () => {
             </a>
           </div>
 
-          <img
-            src="/myself.jpg"
-            alt="Andrea Perna"
-            className="w-32 h-32 mx-auto rounded-full shadow-lg mb-12 border-2 border-blue-500"
-          />
         </div>
       </RevealOnScroll>
     </section>

@@ -40,7 +40,8 @@ export const About = () => {
                 </li>
                 <li>
                   <strong>ITIS Electronics and Telecommunications</strong> – (09/2012 – 07/2017)
-                  <span className="text-sm text-gray-400">Giordano Bruno Technical Institute - Italy</span>
+                  <br />
+                  <span className="text-sm text-gray-400">Giordano Bruno Technical Institute - Bologna, Italy</span>
                 </li>
               </ul>
             </div>
@@ -51,8 +52,10 @@ export const About = () => {
               <div className="space-y-4 text-gray-300">
                 <div>
                   <h4 className="font-semibold">
-                    Master's Thesis at Leonardo Labs (03/2025 – 09/2025) – Rome
+                    Master's Thesis (03/2025 – 09/2025)
                   </h4>
+                  <br />
+                  <span className="text-sm text-gray-400">Leonardo Labs - Rome, Italy</span>
                   <ul className="list-disc list-inside">
                     <li>
                       Developed a real-time LogAnalyzer for anomaly detection in autonomous drones,
