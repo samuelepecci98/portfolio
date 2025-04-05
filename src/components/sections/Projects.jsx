@@ -3,100 +3,95 @@ import { RevealOnScroll } from "../RevealOnScroll";
 export const Projects = () => {
   const projects = [
     {
-      title: "LogAnalyzer for Anomaly Detection in Autonomous Drones, PX4-Python",
+      title: "LogAnalyzer for Anomaly Detection in Autonomous Drones",
       description:
-        "Real-time anomaly detection pipeline for autonomous drones using PX4 logs and hybrid rule-based + ML techniques.",
-      tech: ["Python", "PX4", "Docker", "Pandas"],
-    },
+        "Developed a real-time LogAnalyzer using PX4 telemetry and hybrid rule-based + machine learning techniques to detect anomalies in drone behavior.",
+      tech: ["Python", "PX4", "Git", "Docker", "Pandas", "Scikit-learn", "Outliers Detection"],    },
     {
       title:
-        "Distributed Multi-Robot Search and Rescue Operations Using Aggregative Optimization and BDI Agents in a Multi-Room House Environment, Python",
+        "Distributed Multi-Robot Search and Rescue Operations Using Aggregative Optimization and BDI Agents in a Multi-Room House Environment",
       description:
-        "Coordination of multiple robots in a simulated house using agent-based behavior and aggregative control logic.",
+        "Implemented a coordination strategy for multiple robots using BDI-based agents and aggregative optimization in a Gazebo-simulated house environment.",
       tech: ["Python", "ROS2", "BDI", "Gazebo"],
     },
     {
-      title:
-        "Electronic Arduino-Based Escape Room Development, Arduino-PCB",
+      title: "Electronic Arduino-Based Escape Room Development",
       description:
-        "Interactive game system using Arduino, sensors, actuators, and custom PCBs for puzzle automation in an escape room.",
+        "Designed and built an escape room system powered by Arduino, complete with sensors, actuators, and custom PCB logic for interactive puzzles.",
       tech: ["Arduino", "PCB Design", "C++", "Eagle"],
     },
     {
-      title: "Distributed Multi-Robot Corridor Navigation, ROS2-Python",
+      title: "Distributed Multi-Robot Corridor Navigation Using ROS2",
       description:
-        "Multi-agent robot navigation system with collision avoidance and decentralized path coordination using ROS2.",
-      tech: ["ROS2", "Python", "TurtleBot3"],
+        "Developed a decentralized control strategy for multi-robot navigation in a corridor, with collision avoidance and route optimization using ROS2.",
+      tech: ["ROS2", "Python", "Distributed Systems", "Aggregative Optimization"],
     },
     {
-      title:
-        "3D Stereo Reconstruction & Depth Estimation in Robot Navigation, OpenCV",
+      title: "3D Stereo Reconstruction & Depth Estimation in Robot Navigation",
       description:
-        "Stereo vision-based depth estimation pipeline for autonomous mobile robot navigation in cluttered environments.",
+        "Built a stereo vision system using SGBM to estimate depth for autonomous navigation in cluttered environments.",
       tech: ["OpenCV", "Python", "StereoSGBM", "Camera Calibration"],
     },
     {
-      title: "Modeling and Simulation of a UR5 Robot Manipulator, 20Sim",
+      title: "Modeling and Simulation of a UR5 Robot Manipulator",
       description:
-        "Complete dynamic modeling and simulation of UR5 robotic arm for trajectory tracking and motor analysis.",
+        "Created a dynamic model of the UR5 robotic arm for simulation, trajectory generation, and motor torque analysis using 20Sim and SimMechanics.",
       tech: ["20Sim", "URDF", "SimMechanics"],
     },
     {
-      title: "Distributed Classification via Logistic Regression, Python",
+      title: "Distributed Classification via Logistic Regression",
       description:
-        "Federated logistic regression implemented across distributed nodes using Python and Numpy.",
-      tech: ["Python", "Logistic Regression", "Distributed Systems"],
+        "Implemented a federated learning framework using logistic regression with gradient tracking for distributed classification tasks.",
+      tech: ["Python", "Logistic Regression", "Distributed Systems", "Gradient Tracking"],
     },
     {
       title:
-        "Autonomous and Mobile Sanitize Robot: SLAM-Based Navigation and Control in a Multi-Room House Environment, ROS2-Python",
+        "Autonomous and Mobile Sanitize Robot: SLAM-Based Navigation and Control in a Multi-Room House Environment",
       description:
-        "Designed a sanitizing robot that navigates autonomously with SLAM and performs path planning using ROS2.",
-      tech: ["ROS2", "SLAM", "Python", "TurtleBot"],
+        "Designed a sanitizing robot equipped with SLAM for localization and autonomous path planning across rooms using ROS2.",
+      tech: ["ROS2", "SLAM", "Python", "TurtleBot", "Gazebo", "Rviz"],
     },
     {
       title: "Optimal Control of a Quadrotor, Python",
       description:
-        "Developed an optimal controller using Python and CasADi for trajectory optimization of a simulated quadrotor.",
-      tech: ["Python", "CasADi", "Quadrotor", "Optimization"],
+        "Formulated and solved an optimal control problem for quadrotor trajectory tracking using CasADi and Newton-based optimization methods.",
+      tech: ["Python", "Optimization", "MPC", "CasADi"],
     },
     {
       title: "Business Plan for FitFlow Innovative Startup",
       description:
-        "Designed a strategic business plan for FitFlow, a wellness-oriented tech startup with digital coaching platform.",
-      tech: ["Canva", "PowerPoint", "Market Analysis"],
+        "Prepared a comprehensive business model and go-to-market strategy for FitFlow, a digital wellness startup focused on personalized coaching.",
+      tech: ["Business Planning", "Market Analysis"],
     },
     {
-      title:
-        "Logistic Regression on Multi-Class Classification Problem, MATLAB",
+      title: "Logistic Regression on Multi-Class Classification Problem, MATLAB",
       description:
-        "Implemented one-vs-all and softmax classifiers in MATLAB to solve a handwritten digit classification task.",
+        "Implemented and compared one-vs-all and softmax logistic classifiers to classify handwritten digits in MATLAB.",
       tech: ["MATLAB", "Logistic Regression", "Classification"],
     },
     {
       title: "System Identification of an Unknown AR Model, MATLAB",
       description:
-        "Applied least-squares estimation to identify parameters of an unknown autoregressive model from data.",
-      tech: ["MATLAB", "System ID", "Least Squares"],
+        "Performed parameter estimation for a black-box AR model using least-squares identification techniques in MATLAB.",
+      tech: ["MATLAB", "System Identification", "Least Squares"],
     },
     {
-      title:
-        "Remote Control Software for a Digital Microwave Oscilloscope, LabVIEW",
+      title: "Remote Control Software for a Digital Microwave Oscilloscope, LabVIEW",
       description:
-        "Created LabVIEW software to remotely control a Tektronix oscilloscope, enabling automated measurements.",
-      tech: ["LabVIEW", "GPIB", "Tektronix", "Electronics"],
+        "Created LabVIEW software to remotely control a Tektronix oscilloscope via VISA, enabling automated acquisition and measurements.",
+      tech: ["LabVIEW", "VISA", "Tektronix", "Oscilloscope"],
     },
     {
       title: "Arduino RC Car Software and Hardware Development, Arduino",
       description:
-        "Designed and programmed an Arduino-powered RC car with wireless control and obstacle avoidance.",
-      tech: ["Arduino", "C++", "RC", "Embedded"],
+        "Developed firmware and hardware setup for an Arduino-powered RC car with wireless communication and obstacle detection.",
+      tech: ["Arduino", "C++", "Embedded Systems", "Wireless"],
     },
     {
       title: "Arcade Quest: Unity and Blender Game Development Project, Unity",
       description:
-        "Developed a 3D arcade-style game from scratch using Unity engine, with custom assets created in Blender.",
-      tech: ["Unity", "C#", "Blender", "GameDev"],
+        "Built a 3D arcade-style video game using Unity, with fully customized game assets and animations created in Blender.",
+      tech: ["Unity", "C#", "Blender", "Game Design"],
     },
   ];
 
