@@ -3,9 +3,8 @@ import { RevealOnScroll } from "../RevealOnScroll";
 export const About = () => {
 
   // Skills definitions
-  const Robotics = ["ROS2", "Arduino", "PX4", "VXWorks", "MAS", "Docker", "Git", "20Sim"];
+  const Robotics = ["ROS2", "Arduino", "PX4", "VXWorks", "PCB Design", "LabVIEW", "MATLAB&Simulink", "Docker", "Git", "20Sim"];
   const ArtificialIntelligence = ["Sklearn", "TensorFlow", "PyTorch", "Pandas", "OpenCV"];
-  const Electronics = ["PCB Design", "LabVIEW", "MATLAB", "Simulink"];
   const ProgrammingLanguages = ["Python", "C", "C++/C#", "JavaScript", "HTML/CSS"];
   const GameDevelopment = ["Unity", "Unreal Engine", "Blender", "Manim"];
   return (
