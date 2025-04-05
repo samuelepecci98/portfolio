@@ -21,12 +21,14 @@ export const RescueBDI = () => {
       <br />
 
       <a
-        href={RescueBDIPDF}
-        download
-        className="text-blue-400 hover:underline mt-4 inline-block"
+        href="/reports/RescueBDI.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-blue-400 hover:text-blue-300 underline"
       >
-        Download PDF Report
+        Download Report (PDF)
       </a>
+
     </div>
   );
 };
