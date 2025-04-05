@@ -1,5 +1,4 @@
 import React from "react";
-import RescueBDIPDF from "../../assets/reports/RescueBDI.pdf"; // se lo metti lì
 
 export const RescueBDI = () => {
   return (
