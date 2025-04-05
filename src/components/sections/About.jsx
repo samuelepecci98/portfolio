@@ -25,7 +25,7 @@ export const About = () => {
               <h3 className="text-xl font-bold mb-4">🏫 Education</h3>
               <ul className="list-disc list-inside text-gray-300 space-y-2">
                 <li>
-                  <strong>MSc in Automation Engineering (International, taught in English)</strong> – (09/2022 – 10/2025)
+                  <strong>MSc in Automation Engineering (International)</strong> – (09/2022 – 10/2025)
                   <br />
                   <span className="text-sm text-gray-400">University of Bologna, Italy</span>
                   <span className="text-sm text-gray-400">GPA: 29.4</span>
