@@ -45,27 +45,33 @@ export const Projects = () => {
     {
       title: "Modeling and Simulation of a UR5 Robot Manipulator",
       description:
-        "Created a dynamic model of the UR5 robotic arm for simulation, trajectory generation, and motor torque analysis using 20Sim and SimMechanics.",
+        "Developed a dynamic model of the UR5 robotic arm in 20Sim using bond graph formalism and an energy-based approach. Twists and wrenches were employed to model links, joints, and \
+        harmonic drives following Euler’s equations. The system was controlled via PID actuation to simulate realistic joint behavior and evaluate torque responses under various trajectories.",
       tech: ["20Sim", "URDF", "SimMechanics"],
     },
     {
       title: "Distributed Classification via Logistic Regression",
       description:
-        "Implemented a federated learning framework using logistic regression with gradient tracking for distributed classification tasks.",
+        "Implemented a fully distributed logistic regression framework using Gradient Tracking, enabling agents to collaboratively learn a decision function without centralizing data. \
+        Each agent performed local updates while reaching consensus through network-based communication, ensuring accurate classification in privacy-preserving settings.",
       tech: ["Python", "Logistic Regression", "Distributed Systems", "Gradient Tracking"],
     },
     {
       title:
         "Autonomous and Mobile Sanitize Robot: SLAM-Based Navigation and Control in a Multi-Room House Environment",
       description:
-        "Designed a sanitizing robot equipped with SLAM for localization and autonomous path planning across rooms using ROS2.",
+        "Developed a fully autonomous sanitizer robot using ROS2, focused on multi-room house environments. The system performs SLAM to map and localize itself within the environment, \
+        followed by path planning to reach room centers. Sanitization is achieved using the Boustrophedon decomposition technique, ensuring complete room coverage. The robot's behavior \
+        and mapping were simulated in Gazebo and visualized in Rviz.",
       tech: ["ROS2", "SLAM", "Python", "TurtleBot", "Gazebo", "Rviz"],
     },
     {
       title: "Optimal Control of a Quadrotor, Python",
       description:
-        "Formulated and solved an optimal control problem for quadrotor trajectory tracking using CasADi and Newton-based optimization methods.",
-      tech: ["Python", "Optimization", "MPC", "CasADi"],
+        "Designed an optimal feedback controller for a quadrotor with suspended load by computing the state-input trajectory using Newton's method. The reference curve was generated between \
+        hovering equilibria using either step or poly5 profiles. Two optimal control strategies—Linear Quadratic Regulator (LQR) and Model Predictive Control (MPC)—were implemented to track the \
+        trajectory, accounting for system dynamics and predefined cost weights.",
+      tech: ["Python", "Optimization", "MPC"],
     },
     {
       title: "Business Plan for FitFlow Innovative Startup",
