@@ -109,7 +109,7 @@ export const About = () => {
                   <p className="text-sm text-gray-400 mb-2 -mt-1">Aldini Valeriani Technical Institute – (08/2023-09/2023) – Bologna, Italy</p>
                   <ul className="list-disc list-inside">
                     <li>Delivered a 60-hour math course for first-year high school students.</li>
-                    <li>Encouraged student participation and collaboration.</li>
+                    <li>Encouraged student participation and collaboration with puzzles.</li>
                   </ul>
                 </div>
 
@@ -119,7 +119,7 @@ export const About = () => {
                   <ul className="list-disc list-inside">
                     <li>
                       Developed remote-control software in LabVIEW for a Tektronix microwave oscilloscope
-                      using the VISA protocol to communicate with the oscilloscope, enabling efficient data acquisition.
+                      using the VISA protocol to communicate with the oscilloscope.
                     </li>
                     <li>
                       Implemented innovative data-saving and full-feature remote control.
