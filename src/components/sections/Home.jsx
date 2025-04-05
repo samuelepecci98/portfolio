@@ -16,7 +16,7 @@ export const Home = () => {
           I'm an italian automation engineer from the University of Bologna, with a strong
           foundation in Electronics and a passion for building intelligent systems.
           I love turning complex ideas into real, working solutions, always guided
-          by my motto: Keep The Gradient. Currently, I am looking for a PhD opportunity abroad.
+          by my motto: 'Keep The Gradient'. Currently, I am looking for a PhD opportunity abroad.
           </p>
           <div className="flex justify-center space-x-4">
             <a
