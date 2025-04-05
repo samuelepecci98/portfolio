@@ -54,8 +54,7 @@ export const About = () => {
                   <h4 className="font-semibold">
                     Master's Thesis (03/2025 – 09/2025)
                   </h4>
-                  <br />
-                  <span className="text-sm text-gray-400">Leonardo Labs - Rome, Italy</span>
+                  <p className="text-sm text-gray-400 mb-2 -mt-1">Leonardo Labs – Rome, Italy</p>
                   <ul className="list-disc list-inside">
                     <li>
                       Developed a real-time LogAnalyzer for anomaly detection in autonomous drones,
