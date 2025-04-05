@@ -3,10 +3,10 @@ import { RevealOnScroll } from "../RevealOnScroll";
 export const About = () => {
 
   // Skills definitions
-  const Robotics = ["ROS2", "Arduino", "PX4", "VXWorks", "PCB", "LabVIEW", "MATLAB&Simulink", "Docker", "Git", "20Sim"];
-  const ArtificialIntelligence = ["Sklearn", "TensorFlow", "PyTorch", "Pandas", "OpenCV"];
-  const ProgrammingLanguages = ["Python", "C", "C++/C#", "JavaScript", "HTML/CSS"];
-  const GameDevelopment = ["Unity", "Unreal Engine", "Blender", "Manim"];
+  const Robotics = ["ROS2", "Arduino", "PX4", "VXWorks", "PCB", "LabVIEW", "MATLAB", "Simulink", "Docker", "Git", "20Sim",];
+  const ArtificialIntelligence = ["Sklearn", "TensorFlow", "PyTorch", "Pandas", "OpenCV", "Numpy", "Seaborn",];
+  const ProgrammingLanguages = ["Python", "C", "Java", "C++/C#", "JavaScript", "HTML/CSS",];
+  const GameDevelopment = ["Unity", "Unreal Engine", "Blender", "Manim", "Matplotlib",];
   return (
     <section
       id="about"
