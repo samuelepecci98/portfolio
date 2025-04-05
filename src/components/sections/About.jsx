@@ -84,11 +84,11 @@ export const About = () => {
                   <ul className="list-disc list-inside">
                     <li>
                       Developed a real-time LogAnalyzer for anomaly detection in autonomous drones,
-                      utilizing a hybrid rule-based and ML approach.
+                      utilizing a hybrid rule-based and Machine Learning approach.
                     </li>
                     <li>
-                      Engineered a modular pipeline for PX4 telemetry analysis and autonomous
-                      decision-making.
+                      Engineered a modular Python-based data pipeline for real-time telemetry analysis
+                      during flights, enabling autonomous decision-making.
                     </li>
                     <li>Acquired expertise in PX4, ROS2, Docker, Git, and real-time data analysis.</li>
                   </ul>
@@ -115,10 +115,11 @@ export const About = () => {
 
                 <div>
                   <h4 className="font-semibold">Bachelor's Thesis at ETLab</h4>
-                  <p className="text-sm text-gray-400 mb-2 -mt-1">ETLab, Laboratory of Electronics – (11/2021-03/2022) – UniFE, Italy</p>
+                  <p className="text-sm text-gray-400 mb-2 -mt-1">ETLab, Laboratory of Electronics – (11/2021-03/2022) – Ferrara, Italy</p>
                   <ul className="list-disc list-inside">
                     <li>
-                      Developed remote-control software in LabVIEW for a Tektronix microwave oscilloscope.
+                      Developed remote-control software in LabVIEW for a Tektronix microwave oscilloscope
+                      using the VISA protocol to communicate with the oscilloscope, enabling efficient data acquisition.
                     </li>
                     <li>
                       Implemented innovative data-saving and full-feature remote control.
