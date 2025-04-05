@@ -5,31 +5,41 @@ export const Projects = () => {
     {
       title: "LogAnalyzer for Anomaly Detection in Autonomous Drones",
       description:
-        "Developed a real-time LogAnalyzer using PX4 telemetry and hybrid rule-based + machine learning techniques to detect anomalies in drone behavior.",
+        "Developed a real-time LogAnalyzer using Developed a real-time LogAnalyzer leveraging PX4 telemetry, combining a rule-based layer for structured \
+        anomaly detection with machine learning techniques for outlier identification. Enabled in-flight behavioral adaptation in autonomous drones during \
+        mission execution. telemetry and hybrid rule-based + machine learning techniques to detect anomalies in drone behavior.",
       tech: ["Python", "PX4", "Git", "Docker", "Pandas", "Scikit-learn", "Outliers Detection"],    },
     {
       title:
         "Distributed Multi-Robot Search and Rescue Operations Using Aggregative Optimization and BDI Agents in a Multi-Room House Environment",
       description:
-        "Implemented a coordination strategy for multiple robots using BDI-based agents and aggregative optimization in a Gazebo-simulated house environment.",
+        "Designed and simulated a distributed multi-robot SAR system using BDI (Beliefs, Desires, Intentions) agents and aggregative optimization. Robots \
+        collaboratively explored a multi-room house, located and escorted survivors while maintaining formation and avoiding obstacles. Included autonomous \
+        ambulance dispatch and demonstrated robust decision-making in dynamic, mission-critical environments.",
       tech: ["Python", "ROS2", "BDI", "Gazebo"],
     },
     {
       title: "Electronic Arduino-Based Escape Room Development",
       description:
-        "Designed and built an escape room system powered by Arduino, complete with sensors, actuators, and custom PCB logic for interactive puzzles.",
+        "Built a fully interactive escape room composed of multiple electronic puzzles driven by Arduino boards. Designed the entire experience from storyline \
+        to puzzle logic, including custom PCBs, circuit design, and embedded software development. Each game module features sensors, actuators, and microcontroller-based logic \
+        to deliver immersive, automated gameplay.",
       tech: ["Arduino", "PCB Design", "C++", "Eagle"],
     },
     {
       title: "Distributed Multi-Robot Corridor Navigation Using ROS2",
       description:
-        "Developed a decentralized control strategy for multi-robot navigation in a corridor, with collision avoidance and route optimization using ROS2.",
+      "Designed a fully distributed control system for robot formation navigation in a corridor environment using ROS2. Leveraged the Aggregative Tracking framework to maintain \
+      coordinated motion toward designated targets while ensuring inter-robot collision avoidance. The system was entirely developed in ROS2 and visualized through RViz for real-time \
+      monitoring and evaluation.",
       tech: ["ROS2", "Python", "Distributed Systems", "Aggregative Optimization"],
     },
     {
       title: "3D Stereo Reconstruction & Depth Estimation in Robot Navigation",
       description:
-        "Built a stereo vision system using SGBM to estimate depth for autonomous navigation in cluttered environments.",
+      "Developed a stereo vision-based obstacle detection system for autonomous navigation using synchronized camera feeds. Implemented both dense disparity mapping via Semi-Global Block \
+      Matching (SGBM) and a sparse corner-based method applied to chessboard patterns for enhanced stability. The system estimates object distances in real time, provides vehicle safety alerts \
+      near critical thresholds, and enables accurate chessboard dimensioning—ensuring reliable perception for collision avoidance.",
       tech: ["OpenCV", "Python", "StereoSGBM", "Camera Calibration"],
     },
     {
