@@ -28,12 +28,14 @@ export const About = () => {
                   <strong>MSc in Automation Engineering (International)</strong> – (09/2022 – 10/2025)
                   <br />
                   <span className="text-sm text-gray-400">University of Bologna, Italy</span>
+                  <br />
                   <span className="text-sm text-gray-400">GPA: 29.4</span>
                 </li>
                 <li>
                   <strong>BSc in Electronic and Computer Engineering</strong> – (09/2018 – 03/2022)
                   <br />
                   <span className="text-sm text-gray-400">University of Ferrara, Italy</span>
+                  <br />
                   <span className="text-sm text-gray-400">Grade: 100</span>
                 </li>
                 <li>
