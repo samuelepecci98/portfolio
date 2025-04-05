@@ -10,7 +10,7 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
         <div className="flex justify-between items-center h-16">
           <a href="#home" className="font-mono text-xl font-bold text-white">
             {" "}
-            Andrea<span className="text-blue-500"> Perna</span>{" "}
+            Andrea Perna<span className="text-blue-500"> Automation Engineer</span>{" "}
           </a>
 
           <div
