@@ -26,17 +26,20 @@ export const About = () => {
               <h3 className="text-xl font-bold mb-4">🏫 Education</h3>
               <ul className="list-disc list-inside text-gray-300 space-y-2">
                 <li>
-                  <strong>MSc in Automation Engineering (English)</strong> – University of Bologna, Italy (2022–2025)
+                  <strong>MSc in Automation Engineering (International, taught in English)</strong> – (09/2022 – 10/2025)
                   <br />
+                  <span className="text-sm text-gray-400">University of Bologna, Italy</span>
                   <span className="text-sm text-gray-400">GPA: 29.4</span>
                 </li>
                 <li>
-                  <strong>BSc in Electronic Engineering</strong> – University of Ferrara, Italy (2018–2022) - Grade: 100
+                  <strong>BSc in Electronic and Computer Engineering</strong> – (09/2018 – 03/2022)
                   <br />
+                  <span className="text-sm text-gray-400">University of Ferrara, Italy</span>
                   <span className="text-sm text-gray-400">Grade: 100</span>
                 </li>
                 <li>
-                  <strong>ITIS Electronics and Telecommunications</strong> – Bologna, Italy (2012–2017)
+                  <strong>ITIS Electronics and Telecommunications</strong> – (09/2012 – 07/2017)
+                  <span className="text-sm text-gray-400">Giordano Bruno Technical Institute - Italy</span>
                 </li>
               </ul>
             </div>
