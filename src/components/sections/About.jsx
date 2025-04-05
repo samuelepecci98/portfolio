@@ -52,12 +52,17 @@ export const About = () => {
                   <span className="text-sm text-gray-400">Graduated: 03/2022</span>
                   <br />
                   <span className="text-sm text-gray-400">Grade: 100</span>
-                  <br />
-                  <span className="text-sm text-gray-400">Thesis: Development of remote control software for a digital microwave oscilloscope</span>
-                  <br />
-                  <span className="text-sm text-gray-400">Thesis Supervisor: Prof. Valeria Vadalà</span>
-                  <br />
-                  <span className="text-sm text-gray-400">Thesis Co-Supervisor: Dr. Ing. Gianni Bosi</span>
+                  
+                  <div className="mt-2 pl-4 border-l-2 border-blue-500">
+                    <h5 className="text-sm font-semibold text-gray-300 mb-1">Thesis</h5>
+                    <p className="text-sm text-gray-400">Development of remote control software for a digital microwave oscilloscope</p>
+                    <p className="text-sm text-gray-400">
+                      <strong>Supervisor:</strong> Prof. Valeria Vadalà
+                    </p>
+                    <p className="text-sm text-gray-400">
+                      <strong>Co-Supervisor:</strong> Dr. Ing. Gianni Bosi
+                    </p>
+                  </div>
                 </li>
                 <li>
                   <strong>ITIS Electronics and Telecommunications</strong>
