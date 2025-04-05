@@ -36,7 +36,7 @@ export const Home = () => {
           </div>
 
           <img
-            src="/profile.jpg"
+            src="/myself.jpg"
             alt="Andrea Perna"
             className="w-32 h-32 mx-auto rounded-full shadow-lg mb-12 border-2 border-blue-500"
           />
