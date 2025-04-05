@@ -12,9 +12,7 @@ export const Projects = () => {
       title:
         "Distributed Multi-Robot Search and Rescue Operations Using Aggregative Optimization and BDI Agents in a Multi-Room House Environment",
       description:
-        "Designed and simulated a distributed multi-robot SAR system using BDI (Beliefs, Desires, Intentions) agents and aggregative optimization. Robots \
-        collaboratively explored a multi-room house, located and escorted survivors while maintaining formation and avoiding obstacles. Included autonomous \
-        ambulance dispatch and demonstrated robust decision-making in dynamic, mission-critical environments.",      
+        "Implemented a coordination strategy for multiple robots using BDI-based agents and aggregative optimization in a Gazebo-simulated house environment.",
       tech: ["Python", "ROS2", "BDI", "Gazebo"],
     },
     {
@@ -240,7 +238,7 @@ export const Projects = () => {
                 </div>
                 <div className="flex justify-between items-center">
                   <a
-                    href="#"
+                    href="/projects/RescueBDI"
                     className="text-blue-400 hover:text-blue-300 transition-colors my-2"
                   >
                     View Project →
