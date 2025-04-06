@@ -84,9 +84,11 @@ export const About = () => {
                 <li>
                   <strong>Master’s Thesis</strong>
                   <br />
-                  <span className="text-sm text-gray-400">Leonardo Labs – Rome, Italy</span>
+                  <span className="text-sm text-gray-400">Leonardo Labs</span>
                   <br />
                   <span className="text-sm text-gray-400">03/2025 – 09/2025</span>
+                  <br />
+                  <span className="text-sm text-gray-400">Rome, Italy</span>
                   <div className="mt-2 pl-4 border-l-2 border-blue-500">
                     <ul className="list-disc list-inside text-sm text-gray-400 space-y-1">
                       <li>Developed a real-time LogAnalyzer for anomaly detection in autonomous drones, utilizing a hybrid rule-based and ML approach.</li>
@@ -99,9 +101,11 @@ export const About = () => {
                 <li>
                   <strong>Embedded Systems Engineer</strong>
                   <br />
-                  <span className="text-sm text-gray-400">Fuga Impossibile Escape Room – Bologna, Italy</span>
+                  <span className="text-sm text-gray-400">Fuga Impossibile Escape Room</span>
                   <br />
                   <span className="text-sm text-gray-400">08/2024 – 03/2025</span>
+                  <br />
+                  <span className="text-sm text-gray-400">Bologna, Italy</span>
                   <div className="mt-2 pl-4 border-l-2 border-blue-500">
                     <ul className="list-disc list-inside text-sm text-gray-400 space-y-1">
                       <li>Developed an Arduino-based Escape Room with sensor-driven gameplay.</li>
@@ -114,9 +118,11 @@ export const About = () => {
                 <li>
                   <strong>Mathematics Lecturer</strong>
                   <br />
-                  <span className="text-sm text-gray-400">Aldini Valeriani Technical Institute – Bologna, Italy</span>
+                  <span className="text-sm text-gray-400">Aldini Valeriani Technical Institute</span>
                   <br />
                   <span className="text-sm text-gray-400">08/2023 – 09/2023</span>
+                  <br />
+                  <span className="text-sm text-gray-400">Bologna, Italy</span>
                   <div className="mt-2 pl-4 border-l-2 border-blue-500">
                     <ul className="list-disc list-inside text-sm text-gray-400 space-y-1">
                       <li>Taught a 60-hour math course for first-year high school students.</li>
@@ -128,9 +134,11 @@ export const About = () => {
                 <li>
                   <strong>Bachelor’s Thesis at ETLab</strong>
                   <br />
-                  <span className="text-sm text-gray-400">ETLab – Ferrara, Italy</span>
+                  <span className="text-sm text-gray-400">ETLab, University of Ferrara</span>
                   <br />
                   <span className="text-sm text-gray-400">11/2021 – 03/2022</span>
+                  <br />
+                  <span className="text-sm text-gray-400">Ferrara, Italy</span>
                   <div className="mt-2 pl-4 border-l-2 border-blue-500">
                     <ul className="list-disc list-inside text-sm text-gray-400 space-y-1">
                       <li>Developed remote-control software for a Tektronix microwave oscilloscope using LabVIEW and VISA.</li>
