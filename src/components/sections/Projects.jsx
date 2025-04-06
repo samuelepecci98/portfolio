@@ -125,6 +125,7 @@ export const Projects = () => {
                     View Project →
                   </a>
                 </div>
+
               </div>
             </RevealOnScroll>
           ))}
