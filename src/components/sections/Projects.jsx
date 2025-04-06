@@ -6,11 +6,10 @@ export const Projects = () => {
       title: "LogAnalyzer for Anomaly Detection in Autonomous Drones",
       description:
         "Developed a real-time LogAnalyzer leveraging PX4 telemetry, combining a rule-based layer for structured anomaly detection with machine learning techniques for outlier identification. Enabled in-flight behavioral adaptation in autonomous drones during mission execution.",
-      tech: ["Python", "PX4", "Git", "Docker", "Pandas", "Scikit-learn", "Outliers Detection"],    
+      tech: ["Python", "PX4", "Git", "Docker", "Pandas", "Scikit-learn", "Outliers Detection"],
     },
     {
-      title:
-        "Distributed Multi-Robot Search and Rescue Operations Using Aggregative Optimization and BDI Agents in a Multi-Room House Environment",
+      title: "Distributed Multi-Robot Search and Rescue Operations Using Aggregative Optimization and BDI Agents in a Multi-Room House Environment",
       description:
         "Designed a distributed multi-robot SAR system using BDI agents and aggregative optimization. Robots explored a multi-room house, located and escorted survivors, and dispatched an autonomous ambulance, maintaining formation and obstacle avoidance in mission-critical scenarios.",
       tech: ["Python", "ROS2", "BDI", "Gazebo"],
@@ -24,13 +23,13 @@ export const Projects = () => {
     {
       title: "Distributed Multi-Robot Corridor Navigation Using ROS2",
       description:
-      "Developed a ROS2-based distributed control framework for coordinated robot formation in corridor environments using Aggregative Tracking. Ensured decentralized target pursuit, collision avoidance, and real-time state monitoring through RViz visualization.",
+        "Developed a ROS2-based distributed control framework for coordinated robot formation in corridor environments using Aggregative Tracking. Ensured decentralized target pursuit, collision avoidance, and real-time state monitoring through RViz visualization.",
       tech: ["ROS2", "Python", "Distributed Systems", "Aggregative Optimization"],
     },
     {
       title: "3D Stereo Reconstruction & Depth Estimation in Robot Navigation",
       description:
-      "Developed a stereo vision system for autonomous navigation using SGBM and chessboard-based sparse matching. Enabled real-time obstacle distance estimation, safety alerts, and accurate dimensioning for reliable collision avoidance.",
+        "Developed a stereo vision system for autonomous navigation using SGBM and chessboard-based sparse matching. Enabled real-time obstacle distance estimation, safety alerts, and accurate dimensioning for reliable collision avoidance.",
       tech: ["OpenCV", "Python", "StereoSGBM", "Camera Calibration"],
     },
     {
@@ -46,8 +45,7 @@ export const Projects = () => {
       tech: ["Python", "Logistic Regression", "Distributed Systems", "Gradient Tracking"],
     },
     {
-      title:
-        "Autonomous and Mobile Sanitize Robot: SLAM-Based Navigation and Control in a Multi-Room House Environment",
+      title: "Autonomous and Mobile Sanitize Robot: SLAM-Based Navigation and Control in a Multi-Room House Environment",
       description:
         "Developed a fully autonomous sanitizer robot using ROS2 for multi-room environments. The system performs SLAM-based mapping and localization, plans paths to room centers, and executes complete coverage using Boustrophedon decomposition. Simulated in Gazebo with real-time visualization in Rviz.",
       tech: ["ROS2", "SLAM", "Python", "TurtleBot", "Gazebo", "Rviz"],
@@ -90,19 +88,19 @@ export const Projects = () => {
     },
     {
       title: "Arcade Quest: Unity and Blender Game Development Project, Unity",
-      description: 
+      description:
         "Built a 3D arcade-style video game using Unity, featuring immersive gameplay mechanics, fully customized assets and animations modeled in Blender, and real-time physics interactions for an engaging user experience.",
       tech: ["Unity", "C#", "Blender", "Game Design"],
     },
   ];
-    
+
   return (
     <section
       id="projects"
-      className="min-h-screen flex items-center justify-center py-20"
+      className="min-h-screen py-20 bg-black text-white"
     >
       <RevealOnScroll>
-        <div className="max-w-5xl mx-auto px-4">
+        <div className="max-w-5xl mx-auto px-4 break-words">
           <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
             Projects
           </h2>
@@ -141,3 +139,102 @@ export const Projects = () => {
     </section>
   );
 };
+
+
+/*
+export const Projects = () => {
+  const projects = [
+    {
+      title: "LogAnalyzer for Anomaly Detection in Autonomous Drones",
+      description:
+        "Developed a real-time LogAnalyzer using Developed a real-time LogAnalyzer leveraging PX4 telemetry, combining a rule-based layer for structured \
+        anomaly detection with machine learning techniques for outlier identification. Enabled in-flight behavioral adaptation in autonomous drones during mission execution. telemetry and hybrid rule-based + machine learning techniques to detect anomalies in drone behavior.",
+      tech: ["Python", "PX4", "Git", "Docker", "Pandas", "Scikit-learn", "Outliers Detection"],    },
+    {
+      title:
+        "Distributed Multi-Robot Search and Rescue Operations Using Aggregative Optimization and BDI Agents in a Multi-Room House Environment",
+      description:
+        "Implemented a coordination strategy for multiple robots using BDI-based agents and aggregative optimization in a Gazebo-simulated house environment.",
+      tech: ["Python", "ROS2", "BDI", "Gazebo"],
+    },
+    {
+      title: "Electronic Arduino-Based Escape Room Development",
+      description:
+        "Designed and built an escape room system powered by Arduino, complete with sensors, actuators, and custom PCB logic for interactive puzzles.",
+      tech: ["Arduino", "PCB Design", "C++", "Eagle"],
+    },
+    {
+      title: "Distributed Multi-Robot Corridor Navigation Using ROS2",
+      description:
+        "Developed a decentralized control strategy for multi-robot navigation in a corridor, with collision avoidance and route optimization using ROS2.",
+      tech: ["ROS2", "Python", "Distributed Systems", "Aggregative Optimization"],
+    },
+    {
+      title: "3D Stereo Reconstruction & Depth Estimation in Robot Navigation",
+      description:
+        "Built a stereo vision system using SGBM to estimate depth for autonomous navigation in cluttered environments.",
+      tech: ["OpenCV", "Python", "StereoSGBM", "Camera Calibration"],
+    },
+    {
+      title: "Modeling and Simulation of a UR5 Robot Manipulator",
+      description:
+        "Created a dynamic model of the UR5 robotic arm for simulation, trajectory generation, and motor torque analysis using 20Sim and SimMechanics.",
+      tech: ["20Sim", "URDF", "SimMechanics"],
+    },
+    {
+      title: "Distributed Classification via Logistic Regression",
+      description:
+        "Implemented a federated learning framework using logistic regression with gradient tracking for distributed classification tasks.",
+      tech: ["Python", "Logistic Regression", "Distributed Systems", "Gradient Tracking"],
+    },
+    {
+      title:
+        "Autonomous and Mobile Sanitize Robot: SLAM-Based Navigation and Control in a Multi-Room House Environment",
+      description:
+        "Designed a sanitizing robot equipped with SLAM for localization and autonomous path planning across rooms using ROS2.",
+      tech: ["ROS2", "SLAM", "Python", "TurtleBot", "Gazebo", "Rviz"],
+    },
+    {
+      title: "Optimal Control of a Quadrotor, Python",
+      description:
+        "Formulated and solved an optimal control problem for quadrotor trajectory tracking using CasADi and Newton-based optimization methods.",
+      tech: ["Python", "Optimization", "MPC", "CasADi"],
+    },
+    {
+      title: "Business Plan for FitFlow Innovative Startup",
+      description:
+        "Prepared a comprehensive business model and go-to-market strategy for FitFlow, a digital wellness startup focused on personalized coaching.",
+      tech: ["Business Planning", "Market Analysis"],
+    },
+    {
+      title: "Logistic Regression on Multi-Class Classification Problem, MATLAB",
+      description:
+        "Implemented and compared one-vs-all and softmax logistic classifiers to classify handwritten digits in MATLAB.",
+      tech: ["MATLAB", "Logistic Regression", "Classification"],
+    },
+    {
+      title: "System Identification of an Unknown AR Model, MATLAB",
+      description:
+        "Performed parameter estimation for a black-box AR model using least-squares identification techniques in MATLAB.",
+      tech: ["MATLAB", "System Identification", "Least Squares"],
+    },
+    {
+      title: "Remote Control Software for a Digital Microwave Oscilloscope, LabVIEW",
+      description:
+        "Created LabVIEW software to remotely control a Tektronix oscilloscope via VISA, enabling automated acquisition and measurements.",
+      tech: ["LabVIEW", "VISA", "Tektronix", "Oscilloscope"],
+    },
+    {
+      title: "Arduino RC Car Software and Hardware Development, Arduino",
+      description:
+        "Developed firmware and hardware setup for an Arduino-powered RC car with wireless communication and obstacle detection.",
+      tech: ["Arduino", "C++", "Embedded Systems", "Wireless"],
+    },
+    {
+      title: "Arcade Quest: Unity and Blender Game Development Project, Unity",
+      description:
+        "Built a 3D arcade-style video game using Unity, with fully customized game assets and animations created in Blender.",
+      tech: ["Unity", "C#", "Blender", "Game Design"],
+    },
+  ];
+*/
