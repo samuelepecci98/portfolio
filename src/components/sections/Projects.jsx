@@ -5,7 +5,7 @@ export const Projects = () => {
     {
       title: "LogAnalyzer for Anomaly Detection in Autonomous Drones",
       description:
-        "Developed a real-time LogAnalyzer leveraging PX4 telemetry, combining a rule-based layer for structured anomaly detection with machine learning techniques for outlier identification. Enabled in-flight behavioral adaptation in autonomous drones during mission execution.",
+        "Developed a real-time LogAnalyzer leveraging PX4 telemetry, combining a rule-based layer for structured anomaly detection with machine learning techniques for outlier identification. Enabled in-flight behavioral adaptation in autonomous drones during missions.",
       tech: ["Python", "PX4", "Git", "Docker", "Pandas", "Scikit-learn", "Outliers Detection"],
     },
     {
@@ -51,7 +51,7 @@ export const Projects = () => {
       tech: ["ROS2", "SLAM", "Python", "TurtleBot", "Gazebo", "Rviz"],
     },
     {
-      title: "Optimal Control of a Quadrotor, Python",
+      title: "Optimal Control of a Quadrotor with Suspended Load",
       description:
         "Designed an optimal controller for a quadrotor with suspended load by computing state-input trajectories via Newton's method. Implemented LQR and MPC strategies to track reference profiles (step and poly5), ensuring dynamic feasibility and cost efficiency.",
       tech: ["Python", "Optimization", "MPC"],
@@ -63,31 +63,31 @@ export const Projects = () => {
       tech: ["Business Planning", "Market Analysis"],
     },
     {
-      title: "Logistic Regression on Multi-Class Classification Problem, MATLAB",
+      title: "Logistic Regression on Multi-Class Classification Problem",
       description:
         "Implemented and evaluated one-vs-all and softmax logistic classifiers in MATLAB to solve a multi-class handwritten digit recognition task, analyzing classification accuracy and decision boundaries.",
       tech: ["MATLAB", "Logistic Regression", "Classification"],
     },
     {
-      title: "System Identification of an Unknown AR Model, MATLAB",
+      title: "System Identification of an Unknown AR Model",
       description:
         "Performed system identification for a black-box AutoRegressive (AR) model using least-squares estimation in MATLAB, reconstructing model dynamics from time-series data and validating performance through simulation.",
       tech: ["MATLAB", "System Identification", "Least Squares"],
     },
     {
-      title: "Remote Control Software for a Digital Microwave Oscilloscope, LabVIEW",
+      title: "Remote Control Software for a Digital Microwave Oscilloscope",
       description:
         "Developed a LabVIEW-based remote control interface for a Tektronix digital oscilloscope using VISA protocol, enabling full-featured automated acquisition, waveform analysis, and measurement logging.",
       tech: ["LabVIEW", "VISA", "Tektronix", "Oscilloscope"],
     },
     {
-      title: "Arduino RC Car Software and Hardware Development, Arduino",
+      title: "Arduino RC Car Software and Hardware Development",
       description:
         "Designed and implemented the complete firmware and hardware architecture for an Arduino-powered RC car, featuring wireless control, obstacle detection with sensors, and autonomous navigation logic.",
       tech: ["Arduino", "C++", "Embedded Systems", "Wireless"],
     },
     {
-      title: "Arcade Quest: Unity and Blender Game Development Project, Unity",
+      title: "Arcade Quest: Unity and Blender Game Development Project",
       description:
         "Built a 3D arcade-style video game using Unity, featuring immersive gameplay mechanics, fully customized assets and animations modeled in Blender, and real-time physics interactions for an engaging user experience.",
       tech: ["Unity", "C#", "Blender", "Game Design"],
