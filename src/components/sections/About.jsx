@@ -67,7 +67,11 @@ export const About = () => {
                 <li>
                   <strong>ITIS Electronics and Telecommunications</strong>
                   <br />
-                  <span className="text-sm text-gray-400">Giordano Bruno Technical Institute - Bologna, Italy</span>
+                  <span className="text-sm text-gray-400">Giordano Bruno Bologna, Italy</span>
+                  <br />
+                  <span className="text-sm text-gray-400">Graduated: 07/2018</span>
+                  <br />
+                  <span className="text-sm text-gray-400"></span>
                   <div className="mt-2 pl-4 border-l-2 border-blue-500">
                   <h5 className="text-sm font-semibold text-gray-300 mb-1">Thesis</h5>
                   <p className="text-sm text-gray-400">Design and Implementation of a Wireless-Controlled RC Car Using Arduino</p>
