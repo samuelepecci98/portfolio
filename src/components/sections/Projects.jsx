@@ -5,8 +5,9 @@ export const Projects = () => {
     {
       title: "LogAnalyzer for Anomaly Detection in Autonomous Drones",
       description:
-        "Developed a real-time LogAnalyzer using Developed a real-time LogAnalyzer leveraging PX4 telemetry, combining a rule-based layer for structured anomaly detection with machine learning techniques for outlier identification. Enabled in-flight behavioral adaptation in autonomous drones during mission execution.",
-      tech: ["Python", "PX4", "Git", "Docker", "Pandas", "Scikit-learn", "Outliers Detection"],    },
+        "Developed a real-time LogAnalyzer leveraging PX4 telemetry, combining a rule-based layer for structured anomaly detection with machine learning techniques for outlier identification. Enabled in-flight behavioral adaptation in autonomous drones during mission execution.",
+      tech: ["Python", "PX4", "Git", "Docker", "Pandas", "Scikit-learn", "Outliers Detection"],    
+    },
     {
       title:
         "Distributed Multi-Robot Search and Rescue Operations Using Aggregative Optimization and BDI Agents in a Multi-Room House Environment",
