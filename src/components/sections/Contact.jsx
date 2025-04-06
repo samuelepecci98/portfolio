@@ -107,9 +107,9 @@ export const Contact = () => {
     >
       <RevealOnScroll>
         <div className="text-center px-6">
-          <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent">
-            Contact Information
-          </h2>
+        <h2 className="text-3xl font-bold mb-8 emoji-title text-center bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent">
+          📬 Contact
+        </h2>
           <p className="text-gray-300 text-lg mb-4">
             📧 Personal Email: <a href="mailto:and.perna99@gmail.com" className="text-blue-400 hover:underline">and.perna99@gmail.com</a>
           </p>
