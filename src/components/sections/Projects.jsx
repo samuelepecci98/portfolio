@@ -89,10 +89,8 @@ export const Projects = () => {
     },
     {
       title: "Arcade Quest: Unity and Blender Game Development Project, Unity",
-      description:
-        
-
-    "Built a 3D arcade-style video game using Unity, featuring immersive gameplay mechanics, fully customized assets and animations modeled in Blender, and real-time physics interactions for an engaging user experience.",
+      description: 
+        "Built a 3D arcade-style video game using Unity, featuring immersive gameplay mechanics, fully customized assets and animations modeled in Blender, and real-time physics interactions for an engaging user experience.",
       tech: ["Unity", "C#", "Blender", "Game Design"],
     },
   ];
