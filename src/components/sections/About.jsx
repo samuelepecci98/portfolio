@@ -80,59 +80,68 @@ export const About = () => {
             {/* Work Experience */}
             <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
               <h3 className="text-xl font-bold mb-4">💼 Work Experience</h3>
-              <div className="space-y-4 text-gray-300">
-                <div>
-                  <h4 className="font-semibold">
-                    Master's Thesis
-                  </h4>
-                  <p className="text-sm text-gray-400 mb-2 -mt-1">Leonardo Labs – (03/2025-09/2025) – Rome, Italy</p>
-                  <ul className="list-disc list-inside">
-                    <li>
-                      Developed a real-time LogAnalyzer for anomaly detection in autonomous drones,
-                      utilizing a hybrid rule-based and Machine Learning approach.
-                    </li>
-                    <li>
-                      Engineered a modular Python-based data pipeline for real-time telemetry analysis
-                      during flights, enabling autonomous decision-making.
-                    </li>
-                    <li>Acquired expertise in PX4, ROS2, Docker, Git, and real-time data analysis.</li>
-                  </ul>
-                </div>
+              <ul className="list-disc list-inside text-gray-300 space-y-2">
+                <li>
+                  <strong>Master’s Thesis</strong>
+                  <br />
+                  <span className="text-sm text-gray-400">Leonardo Labs – Rome, Italy</span>
+                  <br />
+                  <span className="text-sm text-gray-400">03/2025 – 09/2025</span>
+                  <div className="mt-2 pl-4 border-l-2 border-blue-500">
+                    <ul className="list-disc list-inside text-sm text-gray-400 space-y-1">
+                      <li>Developed a real-time LogAnalyzer for anomaly detection in autonomous drones, utilizing a hybrid rule-based and ML approach.</li>
+                      <li>Engineered a modular Python-based data pipeline for real-time telemetry analysis during flights.</li>
+                      <li>Gained experience in PX4, ROS2, Docker, Git, and real-time data processing.</li>
+                    </ul>
+                  </div>
+                </li>
 
-                <div>
-                  <h4 className="font-semibold">Embedded Systems Engineer</h4>
-                  <p className="text-sm text-gray-400 mb-2 -mt-1">Fuga Impossibile Escape Room – (08/2024-03/2025) – Bologna, Italy</p>
-                  <ul className="list-disc list-inside">
-                    <li>Developed an Arduino-based Escape Room with sensor-driven gameplay.</li>
-                    <li>Designed custom PCBs for robust embedded game electronics.</li>
-                    <li>Integrated sensors and actuators for interactive game elements.</li>
-                  </ul>
-                </div>
+                <li>
+                  <strong>Embedded Systems Engineer</strong>
+                  <br />
+                  <span className="text-sm text-gray-400">Fuga Impossibile Escape Room – Bologna, Italy</span>
+                  <br />
+                  <span className="text-sm text-gray-400">08/2024 – 03/2025</span>
+                  <div className="mt-2 pl-4 border-l-2 border-blue-500">
+                    <ul className="list-disc list-inside text-sm text-gray-400 space-y-1">
+                      <li>Developed an Arduino-based Escape Room with sensor-driven gameplay.</li>
+                      <li>Designed custom PCBs for embedded game logic.</li>
+                      <li>Integrated sensors and actuators for interactive puzzles.</li>
+                    </ul>
+                  </div>
+                </li>
 
-                <div>
-                  <h4 className="font-semibold">Mathematics Lecturer</h4>
-                  <p className="text-sm text-gray-400 mb-2 -mt-1">Aldini Valeriani Technical Institute – (08/2023-09/2023) – Bologna, Italy</p>
-                  <ul className="list-disc list-inside">
-                    <li>Delivered a 60-hour math course for first-year high school students.</li>
-                    <li>Encouraged student participation and collaboration with puzzles.</li>
-                  </ul>
-                </div>
+                <li>
+                  <strong>Mathematics Lecturer</strong>
+                  <br />
+                  <span className="text-sm text-gray-400">Aldini Valeriani Technical Institute – Bologna, Italy</span>
+                  <br />
+                  <span className="text-sm text-gray-400">08/2023 – 09/2023</span>
+                  <div className="mt-2 pl-4 border-l-2 border-blue-500">
+                    <ul className="list-disc list-inside text-sm text-gray-400 space-y-1">
+                      <li>Taught a 60-hour math course for first-year high school students.</li>
+                      <li>Fostered student collaboration through problem-solving and puzzles.</li>
+                    </ul>
+                  </div>
+                </li>
 
-                <div>
-                  <h4 className="font-semibold">Bachelor's Thesis at ETLab</h4>
-                  <p className="text-sm text-gray-400 mb-2 -mt-1">ETLab, Laboratory of Electronics – (11/2021-03/2022) – Ferrara, Italy</p>
-                  <ul className="list-disc list-inside">
-                    <li>
-                      Developed remote-control software in LabVIEW for a Tektronix microwave oscilloscope
-                      using the VISA protocol to communicate with the oscilloscope.
-                    </li>
-                    <li>
-                      Implemented innovative data-saving and full-feature remote control.
-                    </li>
-                  </ul>
-                </div>
-              </div>
+                <li>
+                  <strong>Bachelor’s Thesis at ETLab</strong>
+                  <br />
+                  <span className="text-sm text-gray-400">ETLab – Ferrara, Italy</span>
+                  <br />
+                  <span className="text-sm text-gray-400">11/2021 – 03/2022</span>
+                  <div className="mt-2 pl-4 border-l-2 border-blue-500">
+                    <ul className="list-disc list-inside text-sm text-gray-400 space-y-1">
+                      <li>Developed remote-control software for a Tektronix microwave oscilloscope using LabVIEW and VISA.</li>
+                      <li>Enabled advanced data saving and full-featured remote interaction.</li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
             </div>
+
+
           </div>
 
           {/* Certifications */}
