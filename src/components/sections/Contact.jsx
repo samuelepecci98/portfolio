@@ -111,7 +111,7 @@ export const Contact = () => {
             Contact Information
           </h2>
           <p className="text-gray-300 text-lg mb-4">
-            📧 Personal Email: <a href="and.perna99@gmail.com" className="text-blue-400 hover:underline">and.perna99@gmail.com</a>
+            📧 Personal Email: <a href="mailto:and.perna99@gmail.com" className="text-blue-400 hover:underline">and.perna99@gmail.com</a>
           </p>
           <p className="text-gray-300 text-lg mb-4">
             🎓 University Email: <a href="mailto:andrea.perna3@studio.unibo.it" className="text-blue-400 hover:underline">andrea.perna3@studio.unibo.it</a>
