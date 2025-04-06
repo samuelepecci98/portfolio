@@ -2,6 +2,7 @@ import { useState } from "react";
 import { RevealOnScroll } from "../RevealOnScroll";
 import emailjs from "emailjs-com";
 
+/*
 export const Contact = () => {
   const [formData, setFormData] = useState({
     name: "",
@@ -95,3 +96,39 @@ export const Contact = () => {
     </section>
   );
 };
+*/
+import { RevealOnScroll } from "../RevealOnScroll";
+
+export const Contact = () => {
+  return (
+    <section
+      id="contact"
+      className="min-h-screen flex items-center justify-center py-20"
+    >
+      <RevealOnScroll>
+        <div className="text-center px-6">
+          <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent">
+            Contact Information
+          </h2>
+          <p className="text-gray-300 text-lg mb-4">
+            📧 Personal Email: <a href="and.perna99@gmail.com" className="text-blue-400 hover:underline">and.perna99@gmail.com</a>
+          </p>
+          <p className="text-gray-300 text-lg mb-4">
+            🎓 University Email (University of Bologna): <a href="mailto:andrea.perna3@studio.unibo.it" className="text-blue-400 hover:underline">andrea.perna3@studio.unibo.it</a>
+          </p>
+          <p className="text-gray-300 text-lg mb-4">
+            📞 Phone: <a href="tel:+39 3801093879" className="text-blue-400 hover:underline">+39 3801093879</a>
+          </p>
+          <p className="text-gray-300 text-lg mb-4">
+            💼 LinkedIn: <a href="https://www.linkedin.com/in/andrea-perna-4aa6191b1/" target="_blank" className="text-blue-400 hover:underline">https://www.linkedin.com/in/andrea-perna-4aa6191b1/</a>
+          </p>
+          <p className="text-gray-300 text-lg">
+            🌍 Location: Bologna, Italy
+          </p>
+        </div>
+      </RevealOnScroll>
+    </section>
+  );
+};
+
+
