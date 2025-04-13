@@ -123,7 +123,7 @@ export const Contact = () => {
             💼 LinkedIn: <a href="https://www.linkedin.com/in/andrea-perna-4aa6191b1/" target="_blank" className="text-blue-400 hover:underline">https://www.linkedin.com/in/andrea-perna-4aa6191b1/</a>
           </p>
           <p className="text-gray-300 text-lg">
-            🌍 Location: Bologna, Italy
+            🌍 Location: Rome, Italy
           </p>
         </div>
       </RevealOnScroll>
