@@ -74,16 +74,16 @@ export const Projects = () => {
     },
     {
       title: "Logistic Regression on Multi-Class Classification Problem",
-      github: "https://github.com/andreaperna99/multiclass-logreg",
+      github: "https://github.com/andreaperna99/learning-estimation-dynamical-systems",
       description:
-        "Implemented and evaluated one-vs-all and softmax logistic classifiers in MATLAB to solve a multi-class handwritten digit recognition task, analyzing classification accuracy and decision boundaries.",
+        "Designed and implemented a multi-class logistic regression (one-vs-all) classifier using Netwon-Raphson optimization in MATLAB, achieving high accuracy classification across fourc classes by modelung decision boundaries and minimizing logistic loss functions.",
       tech: ["MATLAB", "Logistic Regression", "Classification"],
     },
     {
       title: "System Identification of an Unknown AR Model",
-      github: "https://github.com/andreaperna99/ar-model-identification",
+      github: "https://github.com/andreaperna99/learning-estimation-dynamical-systems",
       description:
-        "Performed system identification for a black-box AutoRegressive (AR) model using least-squares estimation in MATLAB, reconstructing model dynamics from time-series data and validating performance through simulation.",
+        "Performed black-box system identification of a discrete-time AR model using least squares estimation in MATLAB, selecting model structure and order via statistical criteria and validating reconstruction accuracy through residual analysis.",
       tech: ["MATLAB", "System Identification", "Least Squares"],
     },
     {
@@ -101,10 +101,10 @@ export const Projects = () => {
       tech: ["Arduino", "C++", "Embedded Systems", "Wireless"],
     },
     {
-      title: "Arcade Quest: Unity and Blender Game Development Project",
-      github: "https://github.com/andreaperna99/arcade-quest",
+      title: "CoinHunter – 3D Coin Collection Game",
+      github: "https://github.com/andreaperna99/coin-hunter-3d-game",
       description:
-        "Built a 3D arcade-style video game using Unity, featuring immersive gameplay mechanics, fully customized assets and animations modeled in Blender, and real-time physics interactions for an engaging user experience.",
+        "BDeveloped a 3D mini-game in Unity where the player collects coins in a dynamic environment, featuring custom 3D models created in Blender, real-time physics-based interactions, and fully scripted gameplay mechanics using C#.",
       tech: ["Unity", "C#", "Blender", "Game Design"],
     },
   ];
