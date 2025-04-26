@@ -104,7 +104,7 @@ export const Projects = () => {
       title: "CoinHunter – 3D Coin Collection Game",
       github: "https://github.com/andreaperna99/coin-hunter-3d-game",
       description:
-        "BDeveloped a 3D mini-game in Unity where the player collects coins in a dynamic environment, featuring custom 3D models created in Blender, real-time physics-based interactions, and fully scripted gameplay mechanics using C#.",
+        "Developed a 3D mini-game in Unity where the player collects coins in a dynamic environment, featuring custom 3D models created in Blender, real-time physics-based interactions, and fully scripted gameplay mechanics using C#.",
       tech: ["Unity", "C#", "Blender", "Game Design"],
     },
   ];
@@ -154,7 +154,7 @@ export const Projects = () => {
                         d="m6.75 7.5 3 2.25-3 2.25m4.5 0h3m-9 8.25h13.5A2.25 2.25 0 0 0 21 18V6a2.25 2.25 0 0 0-2.25-2.25H5.25A2.25 2.25 0 0 0 3 6v12a2.25 2.25 0 0 0 2.25 2.25Z"
                       />
                     </svg>
-                    GitHub
+                    GitHub Page
                   </a>
                 )}
               </div>
