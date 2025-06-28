@@ -100,7 +100,7 @@ export const About = () => {
           <img
             src="/me_myself.png"
             alt="Samuele"
-            className="w-full max-w-sm mx-auto rounded-lg shadow-lg"
+            className="w-64 h-64 border-2 border-red-500 bg-white"
           />
 
           {/* Certifications */}
