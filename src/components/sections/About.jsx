@@ -1,5 +1,4 @@
 import { RevealOnScroll } from "../RevealOnScroll";
-import samuelePic from "../../assets/me_myself.jpg";
 
 export const About = () => {
   return (
@@ -97,8 +96,6 @@ export const About = () => {
               </ul>
             </div>
           </div>
-
-          <img src={samuelePic} alt="Samuele" />
 
           {/* Certifications */}
           <div className="p-6 mt-8 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
