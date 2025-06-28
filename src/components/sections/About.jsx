@@ -99,7 +99,7 @@ export const About = () => {
 
           {/* Certifications */}
           <div className="p-6 mt-8 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
-            <h3 className="text-xl font-bold mb-4">📜 Certifications & Info</h3>
+            <h3 className="text-xl font-bold mb-4">🧾 Personal Information</h3>
             <ul className="list-disc list-inside text-gray-300 space-y-2">
               <li>
                 <strong>Languages:</strong> Italian (native), English (B1)
