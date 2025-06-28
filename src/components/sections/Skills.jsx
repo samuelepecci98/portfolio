@@ -1,10 +1,42 @@
 import { RevealOnScroll } from "../RevealOnScroll";
 
 export const Skills = () => {
-  const Robotics = ["ROS2", "Arduino", "PX4", "VXWorks", "PCB", "LabVIEW", "MATLAB", "Simulink", "Docker", "Git", "20Sim", "Raspberry Pi"];
-  const ArtificialIntelligence = ["Sklearn", "TensorFlow", "PyTorch", "Pandas", "OpenCV", "Numpy"];
-  const ProgrammingLanguages = ["Python", "C", "Java", "C++/C#", "JavaScript", "HTML/CSS"];
-  const GameDevelopment = ["Unity", "Unreal Engine", "Blender", "Manim", "Matplotlib"];
+  const TrainingSkills = [
+    "Personal Training",
+    "Functional Training",
+    "Strength & Conditioning",
+    "Female Body Recomposition",
+    "Athletic Preparation",
+    "Postural Education",
+    "Resistance Training",
+    "Motor Skill Development"
+  ];
+
+  const AssessmentSkills = [
+    "Body Composition Analysis",
+    "Progress Tracking",
+    "Client Evaluation",
+    "Anthropometric Measurements",
+    "Nutritional Guidance (Basic)",
+    "Custom Program Design"
+  ];
+
+  const SoftSkills = [
+    "Client Communication",
+    "Empathy & Motivation",
+    "Team Collaboration",
+    "Adaptability",
+    "Goal-Oriented Planning",
+    "Studio Management"
+  ];
+
+  const ToolsAndPlatforms = [
+    "Digital Coaching Platforms",
+    "Google Workspace",
+    "Excel & Sheets",
+    "InBody / Tanita (Bioimpedance)",
+    "Online Scheduling Tools"
+  ];
 
   return (
     <section
@@ -18,49 +50,61 @@ export const Skills = () => {
           </h3>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {/* Robotics */}
+            {/* Training Skills */}
             <div className="flex flex-col items-center text-center">
-              <h3 className="text-xl font-bold mb-4">Robotics</h3>
+              <h3 className="text-xl font-bold mb-4">Training & Coaching</h3>
               <div className="flex flex-wrap justify-center gap-2">
-                {Robotics.map((tech, key) => (
-                  <span key={key} className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 transition">
-                    {tech}
+                {TrainingSkills.map((skill, key) => (
+                  <span
+                    key={key}
+                    className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 transition"
+                  >
+                    {skill}
                   </span>
                 ))}
               </div>
             </div>
 
-            {/* AI */}
+            {/* Assessment Skills */}
             <div className="flex flex-col items-center text-center">
-              <h3 className="text-xl font-bold mb-4">Artificial Intelligence</h3>
+              <h3 className="text-xl font-bold mb-4">Assessment & Monitoring</h3>
               <div className="flex flex-wrap justify-center gap-2">
-                {ArtificialIntelligence.map((tech, key) => (
-                  <span key={key} className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 transition">
-                    {tech}
+                {AssessmentSkills.map((skill, key) => (
+                  <span
+                    key={key}
+                    className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 transition"
+                  >
+                    {skill}
                   </span>
                 ))}
               </div>
             </div>
 
-            {/* Programming */}
+            {/* Soft Skills */}
             <div className="flex flex-col items-center text-center">
-              <h3 className="text-xl font-bold mb-4">Programming Languages</h3>
+              <h3 className="text-xl font-bold mb-4">Soft Skills</h3>
               <div className="flex flex-wrap justify-center gap-2">
-                {ProgrammingLanguages.map((tech, key) => (
-                  <span key={key} className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 transition">
-                    {tech}
+                {SoftSkills.map((skill, key) => (
+                  <span
+                    key={key}
+                    className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 transition"
+                  >
+                    {skill}
                   </span>
                 ))}
               </div>
             </div>
 
-            {/* Game Dev */}
+            {/* Tools */}
             <div className="flex flex-col items-center text-center">
-              <h3 className="text-xl font-bold mb-4">Game Development & Visualization</h3>
+              <h3 className="text-xl font-bold mb-4">Tools & Platforms</h3>
               <div className="flex flex-wrap justify-center gap-2">
-                {GameDevelopment.map((tech, key) => (
-                  <span key={key} className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 transition">
-                    {tech}
+                {ToolsAndPlatforms.map((tool, key) => (
+                  <span
+                    key={key}
+                    className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 transition"
+                  >
+                    {tool}
                   </span>
                 ))}
               </div>
