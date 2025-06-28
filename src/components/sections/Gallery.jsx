@@ -4,6 +4,7 @@ import handstandOutdoor from "../../assets/handstand_outdoor.png";
 import plancheOnParallettes from "../../assets/planche_on_parallettes.png";
 import deadliftTraining from "../../assets/deadlift_training.png";
 import cableRowsGym from "../../assets/cable_rows_gym.png";
+import trxBackRowOutdoor from "../../assets/trx_back_row_outdoor.png";
 
 
 export const Gallery = () => {
