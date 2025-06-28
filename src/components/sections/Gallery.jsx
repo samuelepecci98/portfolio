@@ -68,6 +68,15 @@ export const Gallery = () => {
               />
               <p className="mt-3 text-gray-400 text-sm">💪 Lat pulldown / cable rows</p>
             </div>
+            {/* TRX back row outdoor */}
+                <div className="flex flex-col items-center">
+                <img
+                    src={trxBackRowOutdoor}
+                    alt="TRX back row outdoor"
+                    className="rounded-xl shadow-lg object-cover w-full h-auto transition-transform duration-300 hover:scale-105"
+                />
+                <p className="mt-3 text-gray-400 text-sm">🏞️ TRX back rows – natural training</p>
+            </div>
           </div>
         </div>
       </RevealOnScroll>
