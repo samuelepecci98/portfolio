@@ -14,7 +14,7 @@ export const Gallery = () => {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <img
-              src="/me_myself.png"
+              src="/me_myself.jpg"
               alt="My Degree"
               className="rounded-xl shadow-lg object-cover w-full h-auto"
             />

@@ -98,7 +98,7 @@ export const About = () => {
           </div>
 
           <img
-            src="/me_myself.png"
+            src="/me_myself.jpg"
             alt="Samuele"
             className="w-64 h-64 border-2 border-red-500 bg-white"
           />
