@@ -97,6 +97,12 @@ export const About = () => {
             </div>
           </div>
 
+          <img
+            src="/me_myself.png"
+            alt="Samuele"
+            className="w-full max-w-sm mx-auto rounded-lg shadow-lg"
+          />
+
           {/* Certifications */}
           <div className="p-6 mt-8 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
             <h3 className="text-xl font-bold mb-4">📜 Certifications & Info</h3>
