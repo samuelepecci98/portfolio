@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 export const LoadingScreen = ({ onComplete }) => {
   const [text, setText] = useState("");
-  const fullText = "<Keep The Gradient/>";
+  const fullText = "<Be water, my friend/>";
 
   useEffect(() => {
     let index = 0;
